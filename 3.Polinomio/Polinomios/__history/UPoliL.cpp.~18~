@@ -1,0 +1,83 @@
+// ---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UPoliL.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+PoliL::PoliL() {
+	pol = new ListaP();
+}
+
+NodoL* PoliL::buscar_exponente(int exp) {
+	NodoL* aux = pol->primero();
+	while (aux != NULL) {
+		NodoL* seg = pol->siguiente(aux);
+		if (pol->recupera(seg) == exp)
+			return seg;
+		aux = pol->siguiente(pol->siguiente(aux));
+	}
+	return NULL;
+}
+
+NodoL* PoliL::buscar_termino_n(int i) {
+}
+
+bool PoliL::es_cero() {
+	return pol->vacia();
+}
+
+int PoliL::grado() {
+	if (!vacia()) {
+		NodoL* aux = pol->siguiente(pol->primero());
+		int max = pol->recupera(aux);
+		while (aux != NULL) {
+			if (pol->recupera(aux) > max)
+				max = pol->recupera(aux);
+			if (aux == pol->fin())
+				break; // aux = NULL;
+			else
+				aux = pol->siguiente(pol->siguiente(aux));
+		}
+		return max;
+	}
+	else
+		cout << "Lista vacia\n";
+}
+
+int PoliL::coeficiente(int exp) {
+}
+
+void PoliL::asignar_coeficiente(int coef, int exp) {
+}
+
+void PoliL::poner_termino(int coef, int exp) {
+	NodoL* dir_exp = buscar_exponente(exp);
+	if (dir_exp != NULL) {
+		NodoL* dir_coef = pol->anterior(dir_exp);
+		int new_coef = pol->recupera(dir_coef) + coef;
+		pol->modifica(dir_coef, new_coef);
+		if (new_coef == 0) {
+			pol->suprime(dir_exp);
+			pol->suprime(dir_coef);
+		}
+	}
+	else {
+		if (coef != 0) {
+			pol->inserta_ultimo(coef);
+			pol->inserta_ultimo(exp);
+		}
+	}
+}
+
+int PoliL::numero_terminos() {
+	return pol->longitud() / 2;
+}
+
+int PoliL::exponente(int nro_ter) {
+}
+
+string PoliL::to_str() {
+	return pol->to_str();
+}

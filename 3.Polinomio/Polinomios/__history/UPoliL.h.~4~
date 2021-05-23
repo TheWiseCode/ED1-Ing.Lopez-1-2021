@@ -1,0 +1,18 @@
+//---------------------------------------------------------------------------
+
+#ifndef UPoliLH
+#define UPoliLH
+//---------------------------------------------------------------------------
+#include <iostream>
+#include "UListaP.h"
+
+using namespace std;
+
+class PoliL{
+	private:
+		ListaP* pol;
+		NodoL* buscarExponente(int exp);
+        NodoL* buscarTerminoN(int i);
+	public:
+};
+#endif

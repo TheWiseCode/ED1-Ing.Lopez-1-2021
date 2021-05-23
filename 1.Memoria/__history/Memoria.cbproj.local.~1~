@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/05/21 22:28:48.000.217,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/05/21 22:28:48.000.382,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/05/21 22:28:58.387,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/05/21 22:28:58.477,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/05/21 22:29:01.342,C:\Users\willy\Documents\Embarcadero\Studio\Projects\MemoriaPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/05/21 22:29:01.347,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Memoria.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/05/21 22:29:04.817,C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/05/21 22:29:30.737,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/05/21 22:29:37.517,C:\Users\willy\Documents\Embarcadero\Studio\Projects\UMemoria.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2021/05/21 22:29:37.517,C:\Users\willy\Documents\Embarcadero\Studio\Projects\UMemoria.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/05/21 22:29:49.797,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Memoria\UMemoria.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\UMemoria.cpp</Transaction>
+    <Transaction>2021/05/21 22:29:49.797,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Memoria\UMemoria.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\UMemoria.h</Transaction>
+    <Transaction>2021/05/21 22:29:52.821,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Memoria\console.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp</Transaction>
+    <Transaction>2021/05/21 22:29:54.774,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Memoria\MemoriaPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\MemoriaPCH1.h</Transaction>
+    <Transaction>2021/05/21 22:29:56.746,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Memoria\Memoria.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Memoria.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/05/22 10:14:37.551,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/05/22 10:14:37.972,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/05/22 10:14:46.799,C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/05/22 10:14:51.038,C:\Users\willy\Documents\Embarcadero\Studio\Projects\PolinomioPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/05/22 10:14:51.042,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Polinomio.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/05/22 10:15:03.618,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\console.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp</Transaction>
+    <Transaction>2021/05/22 10:15:05.893,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\PolinomioPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\PolinomioPCH1.h</Transaction>
+    <Transaction>2021/05/22 10:15:08.037,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\Polinomio.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Polinomio.cbproj</Transaction>
+    <Transaction>2021/05/22 10:38:00.100,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\Unit1.cpp</Transaction>
+    <Transaction>2021/05/22 10:38:05.145,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\UPoliL.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\Unit1.h</Transaction>
+    <Transaction>2021/05/22 10:38:05.145,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\UPoliL.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\Unit1.cpp</Transaction>
+    <Transaction>2021/05/22 10:38:10.339,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\Polinomios\UPoliL.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\UPoliL.h</Transaction>
+    <Transaction>2021/05/22 10:38:10.339,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\Polinomios\UPoliL.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\UPoliL.cpp</Transaction>
+    <Transaction>2021/05/22 10:38:17.498,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\Clases\UMemoria.cpp</Transaction>
+    <Transaction>2021/05/22 10:38:26.005,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\Listas\UListaP.cpp</Transaction>
+    <Transaction>2021/05/22 10:38:26.033,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\Listas\UListaS.cpp</Transaction>
+    <Transaction>2021/05/22 10:38:26.061,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\3.Polinomio\Listas\UListaV.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
