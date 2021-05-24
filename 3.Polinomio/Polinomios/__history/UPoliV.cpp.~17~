@@ -1,0 +1,97 @@
+// ---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UPoliV.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+PoliV::PoliV() {
+	nt = 0;
+	vc = new int[MAX_VP];
+	ve = new int[MAX_VP];
+}
+
+bool PoliV::es_cero() {
+	return nt == 0;
+}
+
+int PoliV::buscar_exponente(int exp) {
+	for (int i = 0; i < nt; i++) {
+		if (ve[i] == exp)
+			return i;
+	}
+	return -1;
+}
+
+int PoliV::grado() {
+	if (!es_cero()) {
+		int max = ve[0];
+		for (int i = 1; i < nt; i++) {
+			if (ve[i] > max)
+				max = ve[i];
+		}
+		return max;
+	}
+	else
+		cout << "Polinomio vacio\n";
+}
+
+int PoliV::coeficiente(int exp) {
+	if (exp >= 0 && exp <= grado) {
+		for (int i = 0; i < nt; i++) {
+			if (ve[i] == exp)
+				return vc[i];
+		}
+
+	}
+}
+
+void PoliV::asignar_coeficiente(int coef, int exp) {
+	int dir_exp = buscar_exponente(exp);
+	if (dir_exp != -1) {
+		vc[dir_exp] = coef;
+		if (coef == 0) {
+			for (int i = dir_exp; i < nt; i++) {
+				vc[i] = vc[i + 1];
+				ve[i] = ve[i + 1];
+			}
+			nt--;
+		}
+
+	}
+	else
+		cout << "No existe ese termino\n";
+}
+
+void PoliV::poner_termino(int coef, int exp) {
+	int dir_exp = buscar_exponente(exp);
+	if (dir_exp == -1) {
+		if (nt < 10 && coef != 0) {
+			vc[nt] = coef;
+			ve[nt] = exp;
+			nt++;
+		}
+		else {
+			int new_coef = coef + vc[dir_exp];
+			vc[dir_exp] = new_coef;
+			if (new_coef == 0) {
+				for (int i = dir_exp; i < nt; i++) {
+					vc[i] = vc[i + 1];
+					ve[i] = ve[i + 1];
+				}
+				nt--;
+			}
+		}
+	}
+}
+
+int PoliV::numero_terminos() {
+	return nt;
+}
+
+int PoliV::exponente(int nro_ter) {
+}
+
+string PoliV::to_str() {
+}
