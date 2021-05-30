@@ -17,12 +17,12 @@ struct NodoPo {
 class PoliP {
 private:
 	NodoPo* ptr_poli;
-    int nt;
+	int nt;
 
 	NodoPo* buscar_exponente(int exp);
 	NodoPo* buscar_termino_n(int i);
-    NodoPo* anterior(NodoPo* dir);
-    void suprime(NodoPo* dir);
+	NodoPo* anterior(NodoPo* dir);
+	void suprime(NodoPo* dir);
 
 public:
 	PoliP();
@@ -33,6 +33,12 @@ public:
 	void poner_termino(int coef, int exp);
 	int numero_terminos();
 	int exponente(int nro_ter);
+	float evaluar(float x);
+	void derivada(PoliP *p);
+	void mostrar_integral();
+	PoliP* suma(PoliP* a, PoliP* b);
+	PoliP* resta(PoliP* a, PoliP* b);
+    PoliP* producto(PoliP* a, PoliP* b);
 	string to_str();
 
 };

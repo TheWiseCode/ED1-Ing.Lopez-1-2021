@@ -12,19 +12,23 @@ PoliP::PoliP() {
 }
 
 NodoPo* PoliP::buscar_exponente(int exp) {
-	for (NodoPo * aux = ptr_poli; aux; aux = aux->sig) {
+	NodoPo * aux = ptr_poli;
+	while (aux != NULL) {
 		if (aux->exp == exp)
 			return aux;
+		aux = aux->sig;
 	}
 	return NULL;
 }
 
 NodoPo* PoliP::buscar_termino_n(int i) {
 	int c = 1;
-	for (NodoPo * aux = ptr_poli; aux; aux = aux->sig) {
+	NodoPo * aux = ptr_poli;
+	while (aux) {
 		if (c == i)
 			return aux;
 		c++;
+		aux = aux->sig;
 	}
 	return NULL;
 }
@@ -36,11 +40,13 @@ bool PoliP::es_cero() {
 int PoliP::grado() {
 	if (!es_cero()) {
 		int max = ptr_poli->exp;
-		for (NodoPo * aux = ptr_poli; aux; aux = aux->sig) {
+		NodoPo * aux = ptr_poli;
+		while (aux) {
 			if (aux->exp > max)
 				max = aux->exp;
+			aux = aux->sig;
 		}
-        return max;
+		return max;
 	}
 }
 
@@ -85,9 +91,9 @@ void PoliP::asignar_coeficiente(int coef, int exp) {
 	NodoPo* dir = buscar_exponente(exp);
 	if (dir) {
 		dir->coef = coef;
-		if (coef == 0){
+		if (coef == 0) {
 			suprime(dir);
-            nt--;
+			nt--;
 		}
 	}
 }
@@ -101,15 +107,15 @@ void PoliP::poner_termino(int coef, int exp) {
 			nuevo->exp = exp;
 			nuevo->sig = ptr_poli;
 			ptr_poli = nuevo;
-            nt++;
+			nt++;
 		}
 	}
 	else {
 		int new_coef = coef + dir->coef;
 		dir->coef = new_coef;
-		if (new_coef == 0){
+		if (new_coef == 0) {
 			suprime(dir);
-            nt--;
+			nt--;
 		}
 	}
 }
@@ -137,4 +143,79 @@ string PoliP::to_str() {
 		r += to_string(coef) + "x^" + to_string(exp);
 	}
 	return r;
+}
+
+float PoliP::evaluar(float x) {
+	float sum = 0;
+	for (int i = 0; i < numero_terminos(); i++) {
+		int exp = exponente(i + 1);
+		int coef = coeficiente(exp);
+		sum += coef * pow(x, exp);
+	}
+	return sum;
+}
+
+void PoliP::derivada(PoliP *p) {
+	for (int i = 0; i < numero_terminos(); i++) {
+		int exp = exponente(i + 1);
+		int coef = coeficiente(exp);
+		p->poner_termino(coef*exp, exp - 1);
+	}
+}
+
+void PoliP::mostrar_integral() {
+	for (int i = 0; i < numero_terminos(); i++) {
+		int exp = exponente(i + 1);
+		int coef = coeficiente(exp);
+		cout << "(" << coef << "x^" << (exp + 1) << ")/" << (exp + 1);
+		if (i < numero_terminos() - 1)
+			cout << "+";
+	}
+	cout << endl;
+}
+
+PoliP* PoliP::suma(PoliP* a, PoliP* b) {
+	PoliP* p = new PoliP();
+	for (int i = 0; i < a->numero_terminos(); i++) {
+		int exp = a->exponente(i + 1);
+		int coef = a->coeficiente(exp);
+		p->poner_termino(coef, exp);
+	}
+	for (int i = 0; i < b->numero_terminos(); i++) {
+		int exp = b->exponente(i + 1);
+		int coef = b->coeficiente(exp);
+		p->poner_termino(coef, exp);
+	}
+	return p;
+}
+
+PoliP* PoliP::resta(PoliP* a, PoliP* b) {
+	PoliP* p = new PoliP();
+	for (int i = 0; i < a->numero_terminos(); i++) {
+		int exp = a->exponente(i + 1);
+		int coef = a->coeficiente(exp);
+		p->poner_termino(coef, exp);
+	}
+	for (int i = 0; i < b->numero_terminos(); i++) {
+		int exp = b->exponente(i + 1);
+		int coef = b->coeficiente(exp);
+		p->poner_termino(-coef, exp);
+	}
+	return p;
+}
+
+PoliP* PoliP::producto(PoliP* a, PoliP* b) {
+	PoliP* p = new PoliP();
+	for (int i = 1; i <= b->numero_terminos(); i++) {
+		int expB = b->exponente(i);
+		int coefB = b->coeficiente(expB);
+		for (int j = 1; j <= a->numero_terminos(); j++) {
+			int expA = a->exponente(j);
+			int coefA = a->coeficiente(expA);
+			int new_coef = coefA * coefB;
+			int new_exp = expA + expB;
+			p->poner_termino(new_coef, new_exp);
+		}
+	}
+	return p;
 }

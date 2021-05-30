@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/05/21 22:32:30.176,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2021/05/21 22:32:30.288,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
-    <Transaction>2021/05/21 22:32:34.050,C:\Users\willy\Documents\Embarcadero\Studio\Projects\ListasPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2021/05/21 22:32:34.055,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Listas.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
-    <Transaction>2021/05/21 22:32:36.596,C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
-    <Transaction>2021/05/21 22:32:50.016,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\console.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp</Transaction>
-    <Transaction>2021/05/21 22:32:52.286,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\ListasPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\ListasPCH1.h</Transaction>
-    <Transaction>2021/05/21 22:32:54.223,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Listas.cbproj</Transaction>
-    <Transaction>2021/05/21 22:33:33.435,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Clases\UMemoria.cpp</Transaction>
-    <Transaction>2021/05/21 22:33:38.763,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
-    <Transaction>2021/05/21 22:33:44.385,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaS.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.h</Transaction>
-    <Transaction>2021/05/21 22:33:44.385,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaS.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
-    <Transaction>2021/05/21 22:33:48.856,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaS.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaS.cpp</Transaction>
-    <Transaction>2021/05/21 22:33:48.856,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaS.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaS.h</Transaction>
-    <Transaction>2021/05/21 22:35:09.054,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
-    <Transaction>2021/05/21 22:35:12.465,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaV.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.h</Transaction>
-    <Transaction>2021/05/21 22:35:12.465,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaV.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
-    <Transaction>2021/05/21 22:35:16.362,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
-    <Transaction>2021/05/21 22:35:22.057,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaP.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
-    <Transaction>2021/05/21 22:35:22.057,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaP.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.h</Transaction>
-    <Transaction>2021/05/21 22:35:33.609,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaP.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaP.cpp</Transaction>
-    <Transaction>2021/05/21 22:35:33.609,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaP.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaP.h</Transaction>
-    <Transaction>2021/05/21 22:35:37.030,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaV.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaV.h</Transaction>
-    <Transaction>2021/05/21 22:35:37.030,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaV.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaV.cpp</Transaction>
+	<Transactions>
+    <Transaction>2021/05/21 22:32:30.000.176,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/05/21 22:32:30.000.288,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/05/21 22:32:34.000.055,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Listas.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/05/21 22:32:34.000.050,C:\Users\willy\Documents\Embarcadero\Studio\Projects\ListasPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/05/21 22:32:36.000.596,C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/05/21 22:32:50.000.016,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\console.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp</Transaction>
+    <Transaction>2021/05/21 22:32:52.000.286,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\ListasPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\ListasPCH1.h</Transaction>
+    <Transaction>2021/05/21 22:32:54.000.223,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Listas.cbproj</Transaction>
+    <Transaction>2021/05/21 22:33:33.000.435,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Clases\UMemoria.cpp</Transaction>
+    <Transaction>2021/05/21 22:33:38.000.763,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
+    <Transaction>2021/05/21 22:33:44.000.385,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaS.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.h</Transaction>
+    <Transaction>2021/05/21 22:33:44.000.385,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaS.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
+    <Transaction>2021/05/21 22:33:48.000.856,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaS.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaS.cpp</Transaction>
+    <Transaction>2021/05/21 22:33:48.000.856,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaS.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaS.h</Transaction>
+    <Transaction>2021/05/21 22:35:09.000.054,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
+    <Transaction>2021/05/21 22:35:12.000.465,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaV.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.h</Transaction>
+    <Transaction>2021/05/21 22:35:12.000.465,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaV.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
+    <Transaction>2021/05/21 22:35:16.000.362,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
+    <Transaction>2021/05/21 22:35:22.000.057,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaP.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.cpp</Transaction>
+    <Transaction>2021/05/21 22:35:22.000.057,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaP.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Unit1.h</Transaction>
+    <Transaction>2021/05/21 22:35:33.000.609,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaP.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaP.cpp</Transaction>
+    <Transaction>2021/05/21 22:35:33.000.609,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaP.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaP.h</Transaction>
+    <Transaction>2021/05/21 22:35:37.000.030,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaV.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaV.h</Transaction>
+    <Transaction>2021/05/21 22:35:37.000.030,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\Listas\UListaV.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Listas\UListaV.cpp</Transaction>
   </Transactions>
 </BorlandProject>

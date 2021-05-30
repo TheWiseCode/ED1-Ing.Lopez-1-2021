@@ -67,21 +67,21 @@ void PoliV::asignar_coeficiente(int coef, int exp) {
 void PoliV::poner_termino(int coef, int exp) {
 	int dir_exp = buscar_exponente(exp);
 	if (dir_exp == -1) {
-		if (nt < 10 && coef != 0) {
+		if (nt < MAX_VP && coef != 0) {
 			vc[nt] = coef;
 			ve[nt] = exp;
 			nt++;
 		}
-		else {
-			int new_coef = coef + vc[dir_exp];
-			vc[dir_exp] = new_coef;
-			if (new_coef == 0) {
-				for (int i = dir_exp; i < nt; i++) {
-					vc[i] = vc[i + 1];
-					ve[i] = ve[i + 1];
-				}
-				nt--;
+	}
+	else {
+		int new_coef = coef + vc[dir_exp];
+		vc[dir_exp] = new_coef;
+		if (new_coef == 0) {
+			for (int i = dir_exp; i < nt; i++) {
+				vc[i] = vc[i + 1];
+				ve[i] = ve[i + 1];
 			}
+			nt--;
 		}
 	}
 }
@@ -106,4 +106,20 @@ string PoliV::to_str() {
 		r += to_string(coef) + "x^" + to_string(exp);
 	}
 	return r;
+}
+
+PoliV* PoliV::producto(PoliV* a, PoliV* b) {
+	PoliV* p = new PoliV();
+	for (int i = 1; i <= b->numero_terminos(); i++) {
+		int expB = b->exponente(i);
+		int coefB = b->coeficiente(expB);
+		for (int j = 1; j <= a->numero_terminos(); j++) {
+			int expA = a->exponente(j);
+			int coefA = a->coeficiente(expA);
+			int new_coef = coefA * coefB;
+			int new_exp = expA + expB;
+			p->poner_termino(new_coef, new_exp);
+		}
+	}
+	return p;
 }
