@@ -1,0 +1,38 @@
+#include <iostream>
+#include "UPoliP.h"
+
+using namespace std;
+
+bool es_polinomio_ordenado(PoliP* p);
+
+int main() {
+	PoliP* a = new PoliP();
+	a->poner_termino(15, 2);
+	a->poner_termino(23, 3);
+	a->poner_termino(2, 2);
+	cout << a->to_str() << endl;
+	system("pause");
+	return 0;
+}
+
+bool es_polinomio_ordenado(PoliV* p) {
+	int n = p->numero_terminos();
+	if (n > 0) {
+		bool ord = true;
+		int eM = p->exponente(1);
+		for (int i = 2; i <= n; i++) {
+			int e = p->exponente(i);
+			if (e < eM) {
+				ord = false;
+				break;
+			}
+			eM = e;
+		}
+		if (ord)
+			cout << "Es polinomio ordenado\n";
+		else
+			cout << "No esta ordenado el polinomio\n";
+	}
+	else
+		cout << "No hay terminos\n";
+}

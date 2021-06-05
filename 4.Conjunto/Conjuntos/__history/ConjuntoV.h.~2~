@@ -1,0 +1,15 @@
+//---------------------------------------------------------------------------
+
+#ifndef ConjuntoVH
+#define ConjuntoVH
+//---------------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+const int MAX_C = 100;
+
+class
+
+
+#endif

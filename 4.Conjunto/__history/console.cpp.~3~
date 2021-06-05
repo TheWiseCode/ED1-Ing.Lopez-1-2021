@@ -1,0 +1,9 @@
+#include <iostream>
+#include "UConjuntoV.h"
+
+using namespace std;
+
+int main() {
+	ConjuntoV* c = new ConjuntoV();
+	return 0;
+}

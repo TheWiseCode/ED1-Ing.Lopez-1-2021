@@ -1,66 +1,36 @@
 #include <iostream>
-#include "UPoliL.h"
-#include "UPoliS.h"
-#include "UPoliV.h"
 #include "UPoliP.h"
 
 using namespace std;
 
-bool es_completo(PoliV* p);
-void es_polinomio_ordenado(PoliV* p);
+bool es_polinomio_ordenado(PoliP* p);
 
 int main() {
 	PoliP* a = new PoliP();
-	PoliP* b = new PoliP();
-	PoliP* p = new PoliP();
-	a->poner_termino(3, 2);
-	a->poner_termino(-4, 1);
-	a->poner_termino(2, 3);
-	b->poner_termino(2, 2);
-	b->poner_termino(3, 1);
-	p = a->producto(a, b);
-	cout << a->to_str() << endl;
-	cout << b->to_str() << endl;
-	cout << p->to_str() << endl;
-	system("pause");
+	a->poner_termino(15, 2);
+	a->poner_termino(23, 3);
+	a->poner_termino(2, 2);
+	if (es_polinomio_ordenado(a))
+		cout << "Es polinomio ordenado" << endl;
+	else
+		cout << "No esta ordenado el polinomio" << endl;
 	return 0;
 }
 
-void es_polinomio_ordenado(PoliV* p) {
+bool es_polinomio_ordenado(PoliP* p) {
+	bool ord1 = true;
+	bool ord2 = true;
 	int n = p->numero_terminos();
 	if (n > 0) {
-		bool ord = true;
 		int eM = p->exponente(1);
-		for (int i = 2; i <= n; i++) {
+		for (int i = 1; i <= n; i++) {
 			int e = p->exponente(i);
-			if (e < eM) {
-				ord = false;
-				break;
-			}
+			if (e < eM)
+				ord1 = false;
+			if(e > eM)
+                ord2 = false;
 			eM = e;
 		}
-		if (ord)
-			cout << "Es polinomio ordenado\n";
-		else
-			cout << "No esta ordenado el polinomio\n";
 	}
-	else
-		cout << "No hay terminos\n";
-}
-
-bool es_completo(PoliV* p) {
-	int grado = p->grado();
-	int nt = p->numero_terminos();
-	bool completo = true;
-	if (nt == grado + 1) {
-		for (int i = 1; i <= nt; i++) {
-			int exp = p->exponente(i);
-			if (exp > grado) {
-				completo = false;
-				break;
-			}
-		}
-		return completo;
-	}
-	return false;
+	return ord1 || ord2;
 }

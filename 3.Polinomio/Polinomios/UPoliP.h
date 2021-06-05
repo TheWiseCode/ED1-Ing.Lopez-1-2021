@@ -38,7 +38,7 @@ public:
 	void mostrar_integral();
 	PoliP* suma(PoliP* a, PoliP* b);
 	PoliP* resta(PoliP* a, PoliP* b);
-    PoliP* producto(PoliP* a, PoliP* b);
+	PoliP* producto(PoliP* a, PoliP* b);
 	string to_str();
 
 };
