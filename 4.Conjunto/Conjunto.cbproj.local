@@ -1,29 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/06/05 10:22:22.843,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2021/06/05 10:22:22.958,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
-    <Transaction>2021/06/05 10:22:28.040,C:\Users\willy\Documents\Embarcadero\Studio\Projects\ConjuntoPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2021/06/05 10:22:28.046,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Conjunto.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
-    <Transaction>2021/06/05 10:22:31.311,C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
-    <Transaction>2021/06/05 10:23:22.965,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\console.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp</Transaction>
-    <Transaction>2021/06/05 10:23:25.543,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\ConjuntoPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\ConjuntoPCH1.h</Transaction>
-    <Transaction>2021/06/05 10:23:28.092,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjunto.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Conjunto.cbproj</Transaction>
-    <Transaction>2021/06/05 10:23:43.848,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Clases\UMemoria.cpp</Transaction>
-    <Transaction>2021/06/05 10:23:51.055,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Listas\UListaP.cpp</Transaction>
-    <Transaction>2021/06/05 10:23:51.094,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Listas\UListaS.cpp</Transaction>
-    <Transaction>2021/06/05 10:23:51.135,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Listas\UListaV.cpp</Transaction>
-    <Transaction>2021/06/05 10:23:59.291,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.cpp</Transaction>
-    <Transaction>2021/06/05 10:24:03.419,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\ConjuntoV.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.h</Transaction>
-    <Transaction>2021/06/05 10:24:03.419,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\ConjuntoV.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.cpp</Transaction>
-    <Transaction>2021/06/05 10:24:07.890,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\ConjuntoV.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\ConjuntoV.h</Transaction>
-    <Transaction>2021/06/05 10:24:07.890,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\ConjuntoV.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\ConjuntoV.cpp</Transaction>
-    <Transaction>2021/06/05 10:49:07.003,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoV.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\ConjuntoV.cpp</Transaction>
-    <Transaction>2021/06/05 10:49:07.003,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoV.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\ConjuntoV.h</Transaction>
-    <Transaction>2021/06/05 11:05:42.567,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.cpp</Transaction>
-    <Transaction>2021/06/05 11:05:48.439,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\UConjuntoL.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.h</Transaction>
-    <Transaction>2021/06/05 11:05:48.439,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\UConjuntoL.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.cpp</Transaction>
-    <Transaction>2021/06/05 11:05:53.062,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoL.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\UConjuntoL.h</Transaction>
-    <Transaction>2021/06/05 11:05:53.062,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoL.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\UConjuntoL.cpp</Transaction>
-  </Transactions>
+	<Transactions>
+    <Transaction>2021/06/05 10:22:22.000.843,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/06/05 10:22:22.000.958,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/06/05 10:22:28.000.046,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Conjunto.cbproj</Transaction>
+    <Transaction>2021/06/05 10:22:28.000.040,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\ConjuntoPCH1.h</Transaction>
+    <Transaction>2021/06/05 10:22:31.000.311,C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp</Transaction>
+    <Transaction>2021/06/05 10:23:22.000.965,C:\Users\willy\Documents\Embarcadero\Studio\Projects\console.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\console.cpp</Transaction>
+    <Transaction>2021/06/05 10:23:25.000.543,C:\Users\willy\Documents\Embarcadero\Studio\Projects\ConjuntoPCH1.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\ConjuntoPCH1.h</Transaction>
+    <Transaction>2021/06/05 10:23:28.000.092,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Conjunto.cbproj=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjunto.cbproj</Transaction>
+    <Transaction>2021/06/05 10:23:43.000.848,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Clases\UMemoria.cpp</Transaction>
+    <Transaction>2021/06/05 10:23:51.000.094,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Listas\UListaS.cpp</Transaction>
+    <Transaction>2021/06/05 10:23:51.000.055,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Listas\UListaP.cpp</Transaction>
+    <Transaction>2021/06/05 10:23:51.000.135,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Listas\UListaV.cpp</Transaction>
+    <Transaction>2021/06/05 10:23:59.000.291,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.cpp</Transaction>
+    <Transaction>2021/06/05 10:24:03.000.419,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\ConjuntoV.h</Transaction>
+    <Transaction>2021/06/05 10:24:03.000.419,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\ConjuntoV.cpp</Transaction>
+    <Transaction>2021/06/05 10:24:07.000.890,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\ConjuntoV.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\ConjuntoV.cpp</Transaction>
+    <Transaction>2021/06/05 10:24:07.000.890,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\ConjuntoV.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\ConjuntoV.h</Transaction>
+    <Transaction>2021/06/05 10:49:07.000.003,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\ConjuntoV.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoV.cpp</Transaction>
+    <Transaction>2021/06/05 10:49:07.000.003,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\ConjuntoV.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoV.h</Transaction>
+    <Transaction>2021/06/05 11:05:42.000.567,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.cpp</Transaction>
+    <Transaction>2021/06/05 11:05:48.000.439,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\UConjuntoL.h</Transaction>
+    <Transaction>2021/06/05 11:05:48.000.439,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Unit1.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\UConjuntoL.cpp</Transaction>
+    <Transaction>2021/06/05 11:05:53.000.062,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\UConjuntoL.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoL.h</Transaction>
+    <Transaction>2021/06/05 11:05:53.000.062,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\UConjuntoL.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoL.cpp</Transaction>
+    <Transaction>2021/06/12 10:30:18.142,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjP.cpp</Transaction>
+    <Transaction>2021/06/12 10:30:18.184,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjS.cpp</Transaction>
+    <Transaction>2021/06/12 10:30:49.130,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConuntojP.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjP.cpp</Transaction>
+    <Transaction>2021/06/12 10:30:49.130,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConuntojP.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjP.h</Transaction>
+    <Transaction>2021/06/12 10:30:52.136,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoS.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjS.cpp</Transaction>
+    <Transaction>2021/06/12 10:30:52.136,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoS.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjS.h</Transaction>
+    <Transaction>2021/06/12 10:31:40.689,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConuntoP.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConuntojP.h</Transaction>
+    <Transaction>2021/06/12 10:31:40.689,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConuntoP.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConuntojP.cpp</Transaction>
+    <Transaction>2021/06/12 10:31:53.298,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoP.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConuntoP.h</Transaction>
+    <Transaction>2021/06/12 10:31:53.298,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConjuntoP.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\4.Conjunto\Conjuntos\UConuntoP.cpp</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Clases"/>
+    <File Path="Clases\UMemoria.cpp"/>
+    <File Path="Clases\UMemoria.cpp"/>
+    <File Path="Clases\UMemoria.h"/>
+    <File Path="Conjuntos"/>
+    <File Path="Conjuntos\UConjuntoL.cpp"/>
+    <File Path="Conjuntos\UConjuntoL.cpp"/>
+    <File Path="Conjuntos\UConjuntoL.h"/>
+    <File Path="Conjuntos\UConjuntoV.cpp"/>
+    <File Path="Conjuntos\UConjuntoV.cpp"/>
+    <File Path="Conjuntos\UConjuntoV.h"/>
+    <File Path="Conjuntos\UConjuntoP.cpp"/>
+    <File Path="Conjuntos\UConjuntoP.cpp"/>
+    <File Path="Conjuntos\UConjuntoP.h"/>
+    <File Path="Conjuntos\UConjuntoS.cpp"/>
+    <File Path="Conjuntos\UConjuntoS.cpp"/>
+    <File Path="Conjuntos\UConjuntoS.h"/>
+    <File Path="Listas"/>
+    <File Path="Listas\UListaP.cpp"/>
+    <File Path="Listas\UListaP.cpp"/>
+    <File Path="Listas\UListaP.h"/>
+    <File Path="Listas\UListaS.cpp"/>
+    <File Path="Listas\UListaS.cpp"/>
+    <File Path="Listas\UListaS.h"/>
+    <File Path="Listas\UListaV.cpp"/>
+    <File Path="Listas\UListaV.cpp"/>
+    <File Path="Listas\UListaV.h"/>
+    <File Path="ConjuntoPCH1.h"/>
+    <File Path="console.cpp"/>
+  </ProjectSortOrder>
 </BorlandProject>

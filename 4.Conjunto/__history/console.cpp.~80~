@@ -12,15 +12,11 @@ void iguales();
 bool subconjunto(ConjuntoP* c1, ConjuntoP* c2);
 void subconjunto();
 
-void _union(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c);
+bool _union(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c);
 void _union();
 
-void interseccion(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c);
+bool interseccion(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c);
 void interseccion();
-
-// (A n B) - C
-void combi1(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c, ConjuntoP* d);
-void combi1();
 
 int main() {
 	ConjuntoP* c = new ConjuntoP();
@@ -42,8 +38,7 @@ int main() {
 	// iguales();
 	// subconjunto();
 	// _union();
-	// interseccion();
-	combi1();
+	interseccion();
 	system("pause");
 	return 0;
 }
@@ -127,7 +122,7 @@ void iguales() {
 		cout << "No son Iguales\n";
 }
 
-void _union(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c) {
+bool _union(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c) {
 	ConjuntoP* aux = new ConjuntoP();
 	while (!a->vacio()) {
 		int m = a->muestrea();
@@ -172,7 +167,7 @@ void _union() {
 	cout << c->to_str() << endl;
 }
 
-void interseccion(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c) {
+bool interseccion(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c) {
 	ConjuntoP* aux = new ConjuntoP();
 	while (!a->vacio()) {
 		int m = a->muestrea();
@@ -204,51 +199,4 @@ void interseccion() {
 	cout << a->to_str() << endl;
 	cout << b->to_str() << endl;
 	cout << c->to_str() << endl;
-}
-
-// (A n B) - C
-void combi1(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c, ConjuntoP* d) {
-	ConjuntoP* x = new ConjuntoP();
-	interseccion(a, b, x);
-	while (!x->vacio()) {
-		int m = x->muestrea();
-		if (x->pertenece(m) && !c->pertenece(m))
-			d->inserta(m);
-		x->suprime(m);
-	}
-}
-
-void combi1() {
-	ConjuntoP* a = new ConjuntoP();
-	ConjuntoP* b = new ConjuntoP();
-	ConjuntoP* c = new ConjuntoP();
-	ConjuntoP* d = new ConjuntoP();
-	a->inserta(1);
-	a->inserta(7);
-	a->inserta(5);
-	a->inserta(3);
-	a->inserta(10);
-	a->inserta(12);
-	a->inserta(99);
-	a->inserta(100);
-	// -----------
-	b->inserta(1);
-	b->inserta(7);
-	b->inserta(5);
-	b->inserta(8);
-	b->inserta(15);
-	b->inserta(99);
-	b->inserta(100);
-	// -----------
-	c->inserta(5);
-	c->inserta(3);
-	c->inserta(15);
-	c->inserta(9);
-	c->inserta(14);
-	c->inserta(77);
-	combi1(a, b, c, d);
-	cout << a->to_str() << endl;
-	cout << b->to_str() << endl;
-	cout << c->to_str() << endl;
-	cout << d->to_str() << endl;
 }

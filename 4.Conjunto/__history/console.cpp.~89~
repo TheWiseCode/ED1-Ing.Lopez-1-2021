@@ -229,16 +229,12 @@ void combi1() {
 	a->inserta(3);
 	a->inserta(10);
 	a->inserta(12);
-	a->inserta(99);
-	a->inserta(100);
 	// -----------
 	b->inserta(1);
 	b->inserta(7);
 	b->inserta(5);
 	b->inserta(8);
 	b->inserta(15);
-	b->inserta(99);
-	b->inserta(100);
 	// -----------
 	c->inserta(5);
 	c->inserta(3);

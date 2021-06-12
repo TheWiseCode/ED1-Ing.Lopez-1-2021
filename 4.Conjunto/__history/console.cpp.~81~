@@ -42,8 +42,7 @@ int main() {
 	// iguales();
 	// subconjunto();
 	// _union();
-	// interseccion();
-	combi1();
+	interseccion();
 	system("pause");
 	return 0;
 }
@@ -208,47 +207,7 @@ void interseccion() {
 
 // (A n B) - C
 void combi1(ConjuntoP* a, ConjuntoP* b, ConjuntoP* c, ConjuntoP* d) {
-	ConjuntoP* x = new ConjuntoP();
-	interseccion(a, b, x);
-	while (!x->vacio()) {
-		int m = x->muestrea();
-		if (x->pertenece(m) && !c->pertenece(m))
-			d->inserta(m);
-		x->suprime(m);
-	}
 }
 
 void combi1() {
-	ConjuntoP* a = new ConjuntoP();
-	ConjuntoP* b = new ConjuntoP();
-	ConjuntoP* c = new ConjuntoP();
-	ConjuntoP* d = new ConjuntoP();
-	a->inserta(1);
-	a->inserta(7);
-	a->inserta(5);
-	a->inserta(3);
-	a->inserta(10);
-	a->inserta(12);
-	a->inserta(99);
-	a->inserta(100);
-	// -----------
-	b->inserta(1);
-	b->inserta(7);
-	b->inserta(5);
-	b->inserta(8);
-	b->inserta(15);
-	b->inserta(99);
-	b->inserta(100);
-	// -----------
-	c->inserta(5);
-	c->inserta(3);
-	c->inserta(15);
-	c->inserta(9);
-	c->inserta(14);
-	c->inserta(77);
-	combi1(a, b, c, d);
-	cout << a->to_str() << endl;
-	cout << b->to_str() << endl;
-	cout << c->to_str() << endl;
-	cout << d->to_str() << endl;
 }
