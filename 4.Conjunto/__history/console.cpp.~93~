@@ -1,0 +1,21 @@
+#include <iostream>
+#include "CConjunto.h"
+
+using namespace std;
+
+void complemento_interseccion(CConjunto* a, CConjunto* b, CConjunto* c);
+
+int main() {
+	CConjunto* aLRHC = new CConjunto();
+	CConjunto* bLRHC = new CConjunto();
+	CConjunto* cLRHC = new CConjunto();
+	aLRHC->inserta(10);
+	bLRHC->inserta(10);
+	aLRHC->inserta(20);
+	cout << c->to_str() << endl;
+	system("pause");
+	return 0;
+}
+
+void complemento_interseccion(CConjunto* a, CConjunto* b, CConjunto* c) {
+}

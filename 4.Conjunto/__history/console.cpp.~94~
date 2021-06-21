@@ -1,0 +1,48 @@
+#include <iostream>
+#include "CConjunto.h"
+
+using namespace std;
+
+void complemento_interseccion(CConjunto* a, CConjunto* b, CConjunto* c);
+
+int main() {
+	CConjunto* aLRHC = new CConjunto();
+	CConjunto* bLRHC = new CConjunto();
+	CConjunto* cLRHC = new CConjunto();
+	aLRHC->inserta(10);
+	bLRHC->inserta(10);
+	aLRHC->inserta(20);
+	complemento_interseccion(aLRHC, bLRHC, cLRHC);
+	cout << aLRHC->to_str() << endl;
+	cout << bLRHC->to_str() << endl;
+	cout << cLRHC->to_str() << endl;
+	system("pause");
+	return 0;
+}
+
+void complemento_interseccion(CConjunto* a, CConjunto* b, CConjunto* c) {
+	CConjunto* aux = new CConjunto();
+	while (!a->vacio()) {
+		int m = a->muestrea();
+		if (a->pertenece(m) && !b->pertenece(m))
+			c->inserta(m);
+		a->suprime(m);
+		aux->inserta(m);
+	}
+	while (!aux->vacio()) {
+		int m = aux->muestrea();
+		aux->suprime(m);
+		a->inserta(m);
+	}
+	while (!b->vacio()) {
+		int m = b->muestrea();
+		if (b->pertenece(m) && !a->pertenece(m))
+			c->inserta(m);
+		b->suprime(m);
+	}
+	while (!aux->vacio()) {
+		int m = aux->muestrea();
+		aux->suprime(m);
+		a->inserta(m);
+	}
+}

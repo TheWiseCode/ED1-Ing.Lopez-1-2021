@@ -1,0 +1,24 @@
+//---------------------------------------------------------------------------
+
+#ifndef ConjuntoVH
+#define ConjuntoVH
+//---------------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+const int MAX_C = 100;
+
+class ConjuntoV{
+	private:
+		bool* v;
+        int cant;
+	public:
+		ConjuntoV();
+		bool vacio();
+		bool pertenece(int e);
+		void inserta(int e);
+		int cardinal();// numero elementos
+        int ordinal(int e);//posicion de e
+};
+#endif

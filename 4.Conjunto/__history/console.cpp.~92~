@@ -1,0 +1,15 @@
+#include <iostream>
+#include "CConjunto.h"
+
+using namespace std;
+
+void complemento_interseccion(CConjunto* a, CConjunto* b, CConjunto* c);
+
+int main() {
+
+	system("pause");
+	return 0;
+}
+
+void complemento_interseccion(CConjunto* a, CConjunto* b, CConjunto* c) {
+}

@@ -1,0 +1,21 @@
+// ---------------------------------------------------------------------------
+
+#ifndef UPoliVH
+#define UPoliVH
+// ---------------------------------------------------------------------------
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+const int MAX_VP = 30;
+
+class PoliV {
+private:
+	int* vc;
+	int* ve;
+
+public:
+
+};
+#endif

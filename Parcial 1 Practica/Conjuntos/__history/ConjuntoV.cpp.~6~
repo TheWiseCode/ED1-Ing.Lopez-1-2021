@@ -1,0 +1,36 @@
+// ---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "ConjuntoV.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+ConjuntoV::ConjuntoV() {
+}
+
+bool ConjuntoV::vacio() {
+}
+
+bool ConjuntoV::pertenece(int e) {
+}
+
+void ConjuntoV::inserta(int e) {
+}
+
+void ConjuntoV::suprime(int e) {
+}
+
+int ConjuntoV::cardinal() {
+
+}
+
+int ConjuntoV::ordinal(int e) {
+
+}
+
+int ConjuntoV::muestrea() {
+}
+
+string ConjuntoV::to_str() {
+}

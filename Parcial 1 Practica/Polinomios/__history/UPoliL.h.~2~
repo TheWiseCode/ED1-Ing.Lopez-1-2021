@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------------
+
+#ifndef UPoliLH
+#define UPoliLH
+//---------------------------------------------------------------------------
+#include <iostream>
+#include "UListaS.h"
+
+using namespace std;
+
+class PoliL{
+	private:
+		ListaP* pol;
+	public:
+};
+#endif

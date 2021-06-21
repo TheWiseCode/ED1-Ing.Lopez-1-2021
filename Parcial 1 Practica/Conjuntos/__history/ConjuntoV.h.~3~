@@ -1,0 +1,17 @@
+//---------------------------------------------------------------------------
+
+#ifndef ConjuntoVH
+#define ConjuntoVH
+//---------------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+const int MAX_C = 100;
+
+class ConjuntoV{
+	private:
+        bool* vM
+	public:
+};
+#endif
