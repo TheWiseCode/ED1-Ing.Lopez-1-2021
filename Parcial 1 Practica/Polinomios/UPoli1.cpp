@@ -53,7 +53,7 @@ void Poli1::poner_termino(int coef, int exp) {
 					// ----
 					k->modifica(k->primero(), nuevoGrado);
 				}
-				if(k->longitud() == 1)//QUEDO VACIO, VACIARs
+				if(k->longitud() == 1)//QUEDO VACIO, VACIAR
                     k->suprime(k->primero());
 			}
 		}

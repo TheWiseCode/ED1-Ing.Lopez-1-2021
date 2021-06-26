@@ -1,30 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/06/20 16:59:01.472,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2021/06/20 16:59:01.918,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
-    <Transaction>2021/06/20 16:59:09.425,C:\Users\willy\Documents\Embarcadero\Studio\Projects\P1 PracticaPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2021/06/20 16:59:09.450,C:\Users\willy\Documents\Embarcadero\Studio\Projects\P1 Practica.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
-    <Transaction>2021/06/20 16:59:13.571,C:\Users\willy\Documents\Embarcadero\Studio\Projects\consola.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
-    <Transaction>2021/06/20 16:59:57.049,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\consola.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\consola.cpp</Transaction>
-    <Transaction>2021/06/20 16:59:59.824,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\P1 PracticaPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\P1 PracticaPCH1.h</Transaction>
-    <Transaction>2021/06/20 17:00:03.846,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\P1 Practica.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\P1 Practica.cbproj</Transaction>
-    <Transaction>2021/06/20 17:36:13.500,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Clases\UMemoria.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:20.105,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Conjuntos\UConjuntoL.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:20.158,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Conjuntos\UConjuntoP.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:20.194,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Conjuntos\UConjuntoS.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:20.229,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Conjuntos\UConjuntoV.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:27.015,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Listas\UListaP.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:27.061,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Listas\UListaS.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:27.106,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Listas\UListaV.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:33.088,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoliL.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:33.127,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoliP.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:33.172,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoliS.cpp</Transaction>
-    <Transaction>2021/06/20 17:36:33.205,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoliV.cpp</Transaction>
-    <Transaction>2021/06/20 18:07:47.772,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.cpp</Transaction>
-    <Transaction>2021/06/20 18:07:54.051,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli1.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.cpp</Transaction>
-    <Transaction>2021/06/20 18:07:54.051,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli1.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.h</Transaction>
-    <Transaction>2021/06/20 18:08:01.868,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoli1.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli1.cpp</Transaction>
-    <Transaction>2021/06/20 18:08:01.868,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoli1.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli1.h</Transaction>
+	<Transactions>
+    <Transaction>2021/06/20 16:59:01.000.918,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/06/20 16:59:01.000.472,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/06/20 16:59:09.000.425,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\P1 PracticaPCH1.h</Transaction>
+    <Transaction>2021/06/20 16:59:09.000.450,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\P1 Practica.cbproj</Transaction>
+    <Transaction>2021/06/20 16:59:13.000.571,C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\consola.cpp</Transaction>
+    <Transaction>2021/06/20 16:59:57.000.049,C:\Users\willy\Documents\Embarcadero\Studio\Projects\consola.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\consola.cpp</Transaction>
+    <Transaction>2021/06/20 16:59:59.000.824,C:\Users\willy\Documents\Embarcadero\Studio\Projects\P1 PracticaPCH1.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\P1 PracticaPCH1.h</Transaction>
+    <Transaction>2021/06/20 17:00:03.000.846,C:\Users\willy\Documents\Embarcadero\Studio\Projects\P1 Practica.cbproj=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\P1 Practica.cbproj</Transaction>
+    <Transaction>2021/06/20 17:36:13.000.500,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Clases\UMemoria.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:20.000.105,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Conjuntos\UConjuntoL.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:20.000.194,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Conjuntos\UConjuntoS.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:20.000.229,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Conjuntos\UConjuntoV.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:20.000.158,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Conjuntos\UConjuntoP.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:27.000.015,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Listas\UListaP.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:27.000.106,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Listas\UListaV.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:27.000.061,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Listas\UListaS.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:33.000.088,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoliL.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:33.000.127,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoliP.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:33.000.172,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoliS.cpp</Transaction>
+    <Transaction>2021/06/20 17:36:33.000.205,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoliV.cpp</Transaction>
+    <Transaction>2021/06/20 18:07:47.000.772,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.cpp</Transaction>
+    <Transaction>2021/06/20 18:07:54.000.051,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli1.cpp</Transaction>
+    <Transaction>2021/06/20 18:07:54.000.051,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli1.h</Transaction>
+    <Transaction>2021/06/20 18:08:01.000.868,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli1.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoli1.h</Transaction>
+    <Transaction>2021/06/20 18:08:01.000.868,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli1.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoli1.cpp</Transaction>
+    <Transaction>2021/06/26 15:30:58.477,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.cpp</Transaction>
+    <Transaction>2021/06/26 15:31:04.224,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli2.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.cpp</Transaction>
+    <Transaction>2021/06/26 15:31:04.224,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli2.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.h</Transaction>
+    <Transaction>2021/06/26 15:31:21.179,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoli2.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli2.cpp</Transaction>
+    <Transaction>2021/06/26 15:31:21.179,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoli2.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli2.h</Transaction>
+    <Transaction>2021/06/26 16:32:51.454,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.cpp</Transaction>
+    <Transaction>2021/06/26 16:32:56.607,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli3.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.cpp</Transaction>
+    <Transaction>2021/06/26 16:32:56.607,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli3.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Unit1.h</Transaction>
+    <Transaction>2021/06/26 16:33:06.567,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoli3.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli3.h</Transaction>
+    <Transaction>2021/06/26 16:33:06.567,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\Polinomios\UPoli3.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\Parcial 1 Practica\UPoli3.cpp</Transaction>
   </Transactions>
 </BorlandProject>

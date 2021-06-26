@@ -5,6 +5,8 @@
 #include "UConjuntoL.h"
 #include "UPoliS.h"
 #include "UPoli1.h"
+#include "UPoli2.h"
+#include "UPoli3.h"
 
 using namespace std;
 
@@ -14,10 +16,22 @@ void poli1();
 void interseccion3();
 void interseccion3(ConjuntoL a, ConjuntoL b, ConjuntoL c, ConjuntoL &cr);
 
+void examen1_p3();
+
 int main() {
-	interseccion3();
+	examen1_p3();
 	system("pause");
 	return 0;
+}
+
+void examen1_p3() {
+	Poli3* p = new Poli3();
+	p->poner_termino(4, 7);
+	p->poner_termino(5, 1);
+	p->poner_termino(9, 3);
+	p->mostrar();
+	p->derivada();
+	p->mostrar();
 }
 
 void prueba_memoria() {

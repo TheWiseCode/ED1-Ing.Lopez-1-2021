@@ -41,8 +41,20 @@ void Poli1::poner_termino(int coef, int exp) {
 				k->suprime(aux);
 				int grado = k->recupera(k->primero());
 				if (exp == grado) { // SE ACTUALIZA EL GRADO
-
+					// ----Buscar si existe el exp
+					NodoL* aux = k->siguiente(k->primero());
+					int nuevoGrado = 0;
+					while (aux != NULL) {
+						NodoL* aux2 = k->siguiente(aux);
+						if (k->recupera(aux2) > nuevoGrado)
+							nuevoGrado = k->recupera(aux2);
+						aux = k->siguiente(k->siguiente(aux));
+					}
+					// ----
+					k->modifica(k->primero(), nuevoGrado);
 				}
+				if(k->longitud() == 1)//QUEDO VACIO, VACIARs
+                    k->suprime(k->primero());
 			}
 		}
 	}
