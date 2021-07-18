@@ -1,0 +1,34 @@
+// ---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UPilaNum.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+PilaNum::PilaNum() {
+	datos = 0;
+}
+
+bool PilaNum::vacia() {
+	return datos == 0;
+}
+
+void PilaNum::meter(int e) {
+	datos = datos * 10 + e;
+}
+
+void PilaNum::sacar(int& e) {
+	if (!vacia()) {
+		e = datos % 10;
+        datos = datos / 10;
+	}
+}
+
+int PilaNum::cima() {
+	if (!vacia())
+        return datos % 10;
+}
+
+string PilaNum::to_str() {
+}

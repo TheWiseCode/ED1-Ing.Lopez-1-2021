@@ -1,0 +1,16 @@
+#include <iostream>
+#include "UPilaNum.h"
+
+using namespace std;
+
+int main() {
+	PilaNum* p = new PilaNum();
+	p->meter(1);
+	p->meter(2);
+	p->meter(1);
+	p->meter(2);
+	p->meter(1);
+	p->meter(2);
+	system("pause");
+	return 0;
+}

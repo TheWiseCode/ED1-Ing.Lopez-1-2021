@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/07/13 07:57:56.660,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/07/13 07:57:56.809,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/07/13 07:58:01.266,C:\Users\willy\Documents\Embarcadero\Studio\Projects\MatrizPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/07/13 07:58:01.271,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Matriz.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/07/13 07:58:17.384,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\File1.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/07/13 07:58:30.342,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\MatrizPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\MatrizPCH1.h</Transaction>
+    <Transaction>2021/07/13 07:58:32.409,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\Matriz.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Matriz.cbproj</Transaction>
+    <Transaction>2021/07/13 07:59:10.089,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\Clases\UMemoria.cpp</Transaction>
+    <Transaction>2021/07/13 07:59:16.418,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\Listas\UListaS.cpp</Transaction>
+    <Transaction>2021/07/13 07:59:22.916,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\Matrices\UMatrizL.cpp</Transaction>
+    <Transaction>2021/07/13 07:59:22.926,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\Matrices\UMatrizPtr.cpp</Transaction>
+    <Transaction>2021/07/13 07:59:22.944,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\Matrices\UMatrizPtrDb.cpp</Transaction>
+    <Transaction>2021/07/13 07:59:22.966,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\Matrices\UMatrizSm.cpp</Transaction>
+    <Transaction>2021/07/13 07:59:22.982,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\Matrices\UMatrizSmDb.cpp</Transaction>
+    <Transaction>2021/07/13 07:59:22.998,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\Matrices\UMatrizV.cpp</Transaction>
+    <Transaction>2021/07/13 07:59:23.015,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\5.Matriz Mej\Matrices\UMatrizVC.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

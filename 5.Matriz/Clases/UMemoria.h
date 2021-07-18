@@ -6,11 +6,10 @@
 
 #include <iostream>
 #include <string>
-#include "Funciones.h"
 
 using namespace std;
 
-const int MAX = 10000;
+const int MAX = 300;
 const int NULO = -1;
 
 struct NodoMem {

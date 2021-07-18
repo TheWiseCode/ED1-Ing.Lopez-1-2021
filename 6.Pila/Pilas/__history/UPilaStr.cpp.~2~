@@ -1,0 +1,25 @@
+// ---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UPilaStr.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+PilaStr::PilaStr() {
+}
+
+bool PilaStr::vacia() {
+}
+
+void PilaStr::meter(int e) {
+}
+
+void PilaStr::sacar(int& e) {
+}
+
+int PilaStr::cima() {
+}
+
+string PilaStr::to_str() {
+}
