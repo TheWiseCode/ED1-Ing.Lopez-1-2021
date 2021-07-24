@@ -1,0 +1,16 @@
+#include <iostream>
+#include "UColaV3.h"
+#include "UColaLS.h"
+
+using namespace std;
+
+int main() {
+	ColaLS* c = new ColaLS();
+	c->poner(1);
+	c->poner(2);
+	c->poner(3);
+	c->poner(4);
+	cout << c->to_str() << endl;
+	system("pause");
+	return 0;
+}

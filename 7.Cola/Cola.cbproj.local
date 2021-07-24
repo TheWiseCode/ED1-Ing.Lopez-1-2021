@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/07/24 15:28:37.671,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/07/24 15:28:37.745,=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/07/24 15:28:39.858,C:\Users\willy\Documents\Embarcadero\Studio\Projects\ColaPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/07/24 15:28:39.884,C:\Users\willy\Documents\Embarcadero\Studio\Projects\Cola.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/07/24 15:28:42.478,C:\Users\willy\Documents\Embarcadero\Studio\Projects\consola.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/07/24 15:29:25.215,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\consola.cpp=C:\Users\willy\Documents\Embarcadero\Studio\Projects\consola.cpp</Transaction>
+    <Transaction>2021/07/24 15:29:27.275,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\ColaPCH1.h=C:\Users\willy\Documents\Embarcadero\Studio\Projects\ColaPCH1.h</Transaction>
+    <Transaction>2021/07/24 15:29:28.971,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Cola.cbproj=C:\Users\willy\Documents\Embarcadero\Studio\Projects\Cola.cbproj</Transaction>
+    <Transaction>2021/07/24 15:31:06.869,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Clases\UMemoria.cpp</Transaction>
+    <Transaction>2021/07/24 15:31:14.869,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaL.cpp</Transaction>
+    <Transaction>2021/07/24 15:31:14.895,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaP.cpp</Transaction>
+    <Transaction>2021/07/24 15:31:14.918,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaS.cpp</Transaction>
+    <Transaction>2021/07/24 15:31:14.944,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaV1.cpp</Transaction>
+    <Transaction>2021/07/24 15:31:14.989,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaV2.cpp</Transaction>
+    <Transaction>2021/07/24 15:31:15.021,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaV3.cpp</Transaction>
+    <Transaction>2021/07/24 15:31:21.101,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Listas\UListaP.cpp</Transaction>
+    <Transaction>2021/07/24 15:31:21.125,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Listas\UListaS.cpp</Transaction>
+    <Transaction>2021/07/24 15:31:21.172,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Listas\UListaV.cpp</Transaction>
+    <Transaction>2021/07/24 16:11:48.914,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Unit1.cpp</Transaction>
+    <Transaction>2021/07/24 16:11:52.863,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\UColaLS.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Unit1.cpp</Transaction>
+    <Transaction>2021/07/24 16:11:52.863,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\UColaLS.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Unit1.h</Transaction>
+    <Transaction>2021/07/24 16:11:58.645,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaLS.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\UColaLS.cpp</Transaction>
+    <Transaction>2021/07/24 16:11:58.645,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaLS.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\UColaLS.h</Transaction>
+    <Transaction>2021/07/24 16:30:35.285,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Unit1.cpp</Transaction>
+    <Transaction>2021/07/24 16:30:45.878,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\UColaPila.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Unit1.cpp</Transaction>
+    <Transaction>2021/07/24 16:30:45.878,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\UColaPila.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Unit1.h</Transaction>
+    <Transaction>2021/07/24 16:30:55.114,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaPila.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\UColaPila.h</Transaction>
+    <Transaction>2021/07/24 16:30:55.114,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaPila.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\UColaPila.cpp</Transaction>
+    <Transaction>2021/07/24 16:32:27.307,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Pilas\UPilaL.cpp</Transaction>
+    <Transaction>2021/07/24 16:32:27.334,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Pilas\UPilaNum.cpp</Transaction>
+    <Transaction>2021/07/24 16:32:27.363,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Pilas\UPilaP.cpp</Transaction>
+    <Transaction>2021/07/24 16:32:27.395,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Pilas\UPilaPInv.cpp</Transaction>
+    <Transaction>2021/07/24 16:32:27.425,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Pilas\UPilaS.cpp</Transaction>
+    <Transaction>2021/07/24 16:32:27.460,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Pilas\UPilaStr.cpp</Transaction>
+    <Transaction>2021/07/24 16:32:27.507,=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Pilas\UPilaV.cpp</Transaction>
+    <Transaction>2021/07/24 16:43:16.502,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaPi.cpp=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaPila.cpp</Transaction>
+    <Transaction>2021/07/24 16:43:16.502,D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaPi.h=D:\UAGRM\Trabajo Auxiliatura\ED1 Ing. Lopez\7.Cola\Colas\UColaPila.h</Transaction>
+  </Transactions>
+</BorlandProject>

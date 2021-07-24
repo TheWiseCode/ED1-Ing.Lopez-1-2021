@@ -1,0 +1,50 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UColaLS.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+
+ColaLS::ColaLS() {
+	L = new ListaV();
+}
+
+bool ColaLS::vacia() {
+	return L->vacia();
+}
+
+void ColaLS::poner(int e) {
+	L->inserta(L->primero(), e);
+}
+
+void ColaLS::sacar(int &e) {
+	if (!vacia()) {
+		e = L->recupera(L->fin());
+		L->suprime(L->fin());
+	}
+}
+
+int ColaLS::primero() {
+	if (!vacia())
+		return L->recupera(L->fin());
+}
+
+string ColaLS::to_str() {
+	string s = "<<";
+	int e;
+	ColaLS* aux = new ColaLS();
+	while (!vacia()) {
+		sacar(e);
+		aux->poner(e);
+		s += to_string(e);
+		if (!vacia())
+			s += ",";
+	}
+	while (!aux->vacia()) {
+		aux->sacar(e);
+		poner(e);
+	}
+	return s + "<<";
+}
