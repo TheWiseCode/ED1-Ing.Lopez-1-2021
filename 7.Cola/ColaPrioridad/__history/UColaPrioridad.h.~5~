@@ -1,0 +1,18 @@
+// ---------------------------------------------------------------------------
+
+#ifndef UColaPrioridadH
+#define UColaPrioridadH
+// ---------------------------------------------------------------------------
+#include <iostream>
+#include <string>
+#include "UColaV3.h"
+
+using namespace std;
+
+class ColaPrioridad {
+private:
+    ColaV3* colas;
+public:
+};
+
+#endif

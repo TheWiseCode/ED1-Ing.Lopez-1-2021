@@ -9,7 +9,7 @@
 
 using namespace std;
 
-const int MAX = 20;
+const int MAX = 50;
 const int NULO = -1;
 
 struct NodoMem {

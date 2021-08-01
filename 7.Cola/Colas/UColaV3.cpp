@@ -23,6 +23,13 @@ int ColaV3::siguiente(int dir) {
 		return dir + 1;
 }
 
+int ColaV3::anterior(int dir) {
+	if (dir == 1)
+		return MAXVC3;
+	else
+		return dir - 1;
+}
+
 void ColaV3::poner(int e) {
 	if (siguiente(siguiente(fin)) != ini) {
 		fin = siguiente(fin);
@@ -58,4 +65,23 @@ string ColaV3::to_str() {
 		poner(e);
 	}
 	return s + "<<";
+}
+
+int ColaV3::ultimo() {
+	if (!vacia())
+		return v[fin - 1];
+}
+
+void ColaV3::poner_frente(int e) {
+	if (siguiente(siguiente(fin)) != ini) {
+		ini = anterior(ini);
+		v[ini - 1] = e;
+	}
+}
+
+void ColaV3::sacar_final(int &e) {
+	if (!vacia()) {
+		e = v[fin - 1];
+		fin = anterior(fin);
+	}
 }

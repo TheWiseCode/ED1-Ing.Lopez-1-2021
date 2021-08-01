@@ -1,28 +1,33 @@
-//---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 
 #ifndef UColaPH
 #define UColaPH
-//---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-struct NodoC{
-    int elemento;
-    NodoC* sig;
+struct NodoC {
+	int elemento;
+	NodoC* sig;
 };
 
-class ColaP{
-    private:
-        NodoC* ini;
-        NodoC* fin;
-    public:
-        ColaP();
-        bool vacia();
-		void poner(int e);
-		void sacar(int &e);
-		int primero();
-		string to_str();
+class ColaP {
+private:
+	NodoC* ini;
+	NodoC* fin;
+
+public:
+	ColaP();
+	bool vacia();
+	void poner(int e);
+	void sacar(int &e);
+	int primero();
+	string to_str();
+
+	int ultimo();
+	void poner_frente(int e);
+	void sacar_final(int &e);
 };
 #endif
