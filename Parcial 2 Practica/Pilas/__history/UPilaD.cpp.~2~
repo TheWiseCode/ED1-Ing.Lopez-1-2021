@@ -1,0 +1,25 @@
+// ---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UPilaD.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+PilaL::PilaL() {
+}
+
+bool PilaL::vacia() {
+}
+
+void PilaL::meter(int e) {
+}
+
+void PilaL::sacar(int& e) {
+}
+
+int PilaL::cima() {
+}
+
+string PilaL::to_str() {
+}

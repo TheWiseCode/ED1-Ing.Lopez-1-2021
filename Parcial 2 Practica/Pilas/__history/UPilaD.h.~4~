@@ -1,0 +1,31 @@
+// ---------------------------------------------------------------------------
+
+#ifndef UPilaDH
+#define UPilaDH
+// ---------------------------------------------------------------------------
+#include <iostream>
+#include <string>
+#include "UColaV3.h"
+
+using namespace std;
+
+// Pila que utiliza una dicola con vector circular
+
+class Dicola1 {
+private:
+	ColaP* k;
+
+public:
+	Dicola1();
+	bool vacia();
+	void poner(int e);
+	void sacar(int &e);
+	int primero();
+	string to_str();
+
+	int ultimo();
+	void poner_frente(int e);
+	void sacar_final(int &e);
+};
+
+#endif

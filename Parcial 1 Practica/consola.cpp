@@ -4,6 +4,7 @@
 #include "UConjuntoS.h"
 #include "UConjuntoL.h"
 #include "UPoliS.h"
+#include "UPoliP.h"
 #include "UPoli1.h"
 #include "UPoli2.h"
 #include "UPoli3.h"
@@ -18,8 +19,24 @@ void interseccion3(ConjuntoL a, ConjuntoL b, ConjuntoL c, ConjuntoL &cr);
 
 void examen1_p3();
 
+void area(PoliP* p, int a, int b) {
+	float evA = 0, evB = 0;
+	for (int i = 0; i < p->numero_terminos(); i++) {
+		int exp = p->exponente(i + 1);
+		int coef = p->coeficiente(exp);
+		evA += (coef * 1.0 / (exp + 1)) * pow(a, (exp + 1));
+		evB += (coef * 1.0 / (exp + 1)) * pow(b, (exp + 1));
+	}
+	float area = abs(evB) + abs(evA);
+	cout << "Area: " << area << endl;
+}
+
 int main() {
-	examen1_p3();
+	PoliP* p = new PoliP();
+	// p->poner_termino(2, 0);
+	p->poner_termino(1, 1);
+	area(p, -1, 1);
+	// area(p, -2, 2);
 	system("pause");
 	return 0;
 }

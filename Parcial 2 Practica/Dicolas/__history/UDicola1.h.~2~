@@ -1,0 +1,14 @@
+//---------------------------------------------------------------------------
+
+#ifndef UDicola1H
+#define UDicola1H
+//---------------------------------------------------------------------------
+#include <iostream>
+#include <string>
+#include "UColaP.h"
+
+using namespace std;
+
+//Esta dicola usa una cola k como atributo
+
+#endif
