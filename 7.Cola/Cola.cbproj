@@ -63,8 +63,8 @@
         <SanitizedProjectName>Cola</SanitizedProjectName>
         <Multithreaded>true</Multithreaded>
         <_TCHARMapping>char</_TCHARMapping>
-        <IncludePath>ColaPrioridad\;Pilas\;Listas\;Colas\;Clases\;$(IncludePath)</IncludePath>
-        <ILINK_LibraryPath>ColaPrioridad\;Pilas\;Listas\;Colas\;Clases\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <IncludePath>Dicolas\;ColaPrioridad\;Pilas\;Listas\;Colas\;Clases\;$(IncludePath)</IncludePath>
+        <ILINK_LibraryPath>Dicolas\;ColaPrioridad\;Pilas\;Listas\;Colas\;Clases\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <PackageImports>adortl;appanalytics;bcbie;bcbsmp;bindcomp;bindcompdbx;bindcompfmx;bindcompvcl;bindengine;CloudService;CustomIPTransport;dbexpress;dbrtl;dbxcds;DbxClientDriver;DbxCommonDriver;DBXInterBaseDriver;DBXMySQLDriver;DBXSqliteDriver;dsnap;dsnapcon;dsnapxml;FireDAC;FireDACADSDriver;FireDACCommon;FireDACCommonDriver;FireDACCommonODBC;FireDACIBDriver;FireDACMSAccDriver;FireDACMySQLDriver;FireDACPgDriver;FireDACSqliteDriver;fmx;fmxase;fmxdae;fmxFireDAC;fmxobj;IndyCore;IndyIPClient;IndyIPCommon;IndyIPServer;IndyProtocols;IndySystem;inet;inetdb;inetdbxpress;RESTBackendComponents;RESTComponents;rtl;soapmidas;soaprtl;soapserver;svn;tethering;vcl;vclactnband;vcldb;vcldsnap;vclFireDAC;vclie;vclimg;VCLRESTComponents;VclSmp;vcltouch;vclwinx;vclx;xmlrtl;$(PackageImports)</PackageImports>
@@ -166,6 +166,10 @@
         <CppCompile Include="consola.cpp">
             <BuildOrder>1</BuildOrder>
         </CppCompile>
+        <CppCompile Include="Dicolas\UDicola.cpp">
+            <DependentOn>Dicolas\UDicola.h</DependentOn>
+            <BuildOrder>22</BuildOrder>
+        </CppCompile>
         <CppCompile Include="Listas\UListaP.cpp">
             <DependentOn>Listas\UListaP.h</DependentOn>
             <BuildOrder>9</BuildOrder>
@@ -177,6 +181,10 @@
         <CppCompile Include="Listas\UListaV.cpp">
             <DependentOn>Listas\UListaV.h</DependentOn>
             <BuildOrder>11</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Pilas\UPilaCo.cpp">
+            <DependentOn>Pilas\UPilaCo.h</DependentOn>
+            <BuildOrder>23</BuildOrder>
         </CppCompile>
         <CppCompile Include="Pilas\UPilaL.cpp">
             <DependentOn>Pilas\UPilaL.h</DependentOn>

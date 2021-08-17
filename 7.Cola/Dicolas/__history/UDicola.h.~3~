@@ -1,0 +1,14 @@
+// ---------------------------------------------------------------------------
+
+#ifndef UDicolaH
+#define UDicolaH
+// ---------------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+class Dicola {
+private:
+public:
+};
+#endif

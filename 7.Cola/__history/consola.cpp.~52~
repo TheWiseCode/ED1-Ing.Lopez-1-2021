@@ -14,7 +14,6 @@ int main() {
 	cout << p->to_str() << endl;
 	int e;
 	// p->sacar(e);
-	e = p->cima();
 	cout << "Elem: " << e << endl;
 	cout << p->to_str() << endl;
 	system("pause");

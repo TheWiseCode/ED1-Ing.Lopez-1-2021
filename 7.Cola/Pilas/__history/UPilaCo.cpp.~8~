@@ -1,0 +1,39 @@
+// ---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UPilaCo.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+PilaCo::PilaCo() {
+	k = new ColaS();
+}
+
+PilaCo::PilaCo(CSMemoria* m) {
+	k = new ColaS(m);
+}
+
+bool PilaCo::vacia() {
+	return k->vacia();
+}
+
+void PilaCo::meter(int e) {
+	k->poner(e);
+}
+
+void PilaCo::sacar(int &e) {
+	ColaS* aux = new ColaS();
+	int c = 0;
+	while (!k->vacia()) {
+		k->sacar(e);
+		aux->poner(e);
+		c++;
+	}
+}
+
+int PilaCo::cima() {
+}
+
+string PilaCo::to_str() {
+}
